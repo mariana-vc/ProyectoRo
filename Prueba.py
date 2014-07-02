@@ -5,7 +5,7 @@ def dict_depth(d, depth=0):
 
 dic = {
 'status01':{'linea01':{'titulo01':{'descrip01':250}}},
-'status02':{'linea02':{'titulo02':{'descrip02':260}}},
+'status02':{'linea02':{'titulo02':{'descrip02':260}}	},
 'status03':{'linea03':{'titulo03':{'descrip03':270}}},
 'status04':{'linea04':{'titulo04':{'descrip04':280}}},
 'status05':{'linea05':{'titulo05':{'descrip05':290}}},
@@ -14,7 +14,7 @@ dic = {
 'status08':{'linea08':{'titulo08':{'descrip08':320}}},
 }
 
-#columnas=dict_depth(dic)
+print "La señorita flagui"
 
 print dict_de
 pth(dic)
