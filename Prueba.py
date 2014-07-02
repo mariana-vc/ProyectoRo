@@ -14,6 +14,9 @@ dic = {
 'status08':{'linea08':{'titulo08':{'descrip08':320}}},
 }
 
+
+print "La señorita flagui"
+
 columnas=dict_depth(dic)
 
 def funcion(dicc,columnas):
