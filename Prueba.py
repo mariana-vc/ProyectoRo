@@ -18,6 +18,7 @@ dic = {
 }
 
 print "La señorita flagui"
+print "holi 2.0"
 
 print dict_de
 pth(dic)
