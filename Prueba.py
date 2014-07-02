@@ -16,8 +16,6 @@ dic = {
 
 columnas=dict_depth(dic)
 
-print "Hola Mundo"
-
 def funcion(dicc,columnas):
     
 
