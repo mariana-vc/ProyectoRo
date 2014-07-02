@@ -23,6 +23,9 @@ def funcion(dicc,columnas):
     
 
 
+
+//Este es un estupido comentario
+
 #
 #stati = []
 #for status in lista:
