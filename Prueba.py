@@ -14,33 +14,32 @@ dic = {
 'status08':{'linea08':{'titulo08':{'descrip08':320}}},
 }
 
-columnas=dict_depth(dic)
+#columnas=dict_depth(dic)
 
-def funcion(dicc,columnas):
+print dict_de
+pth(dic)
+
+print "hola mundo"
+
+
+stati = []
+for status in dic:
+    children = []
+    for linea in dic[status]:
+        subchildren = []
+        for clave in dic[status][linea]:
+            subsubchildren = []
+            for concepto in dic[status][linea][clave]:
+                subsubchildren.append( {'name': concepto,
+                                        'size': float(dic[status][linea][clave][concepto])} )
+            subchildren.append( {'name': clave,
+                                 'children': subsubchildren } )
+        children.append( {'name': linea,
+                          'children': subchildren} )
+    stati.append( {'name': status,
+                 'children': children} )
     
+proyectos = {'name': 'proyectos',
+             'children': stati }
 
-
-#
-#stati = []
-#for status in lista:
-#    children = []
-#    for linea in lista[status]:
-#        subchildren = []
-#        for clave in lista[status][linea]:
-#            subsubchildren = []
-#            for concepto in lista[status][linea][clave]:
-#                subsubchildren.append( {'name': concepto,
-#                                        'size': float(lista[status][linea][clave][concepto])} )
-#            subchildren.append( {'name': clave,
-#                                 'children': subsubchildren } )
-#        children.append( {'name': linea,
-#                          'children': subchildren} )
-#    stati.append( {'name': status,
-#                 'children': children} )
-#    
-#proyectos = {'name': 'proyectos',
-#             'children': stati }
-#
-#print proyectos
-#
 
