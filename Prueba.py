@@ -1,3 +1,6 @@
+No se como funciona esto.
+
+
 def dict_depth(d, depth=0):
     if not isinstance(d, dict) or not d:
         return depth
@@ -23,6 +26,8 @@ pth(dic)
 print "hola mundo"
 
 
+
+
 stati = []
 for status in dic:
     children = []
@@ -44,3 +49,33 @@ proyectos = {'name': 'proyectos',
              'children': stati }
 
 
+<<<<<<< HEAD
+
+//Este es un estupido comentario
+
+#
+#stati = []
+#for status in lista:
+#    children = []
+#    for linea in lista[status]:
+#        subchildren = []
+#        for clave in lista[status][linea]:
+#            subsubchildren = []
+#            for concepto in lista[status][linea][clave]:
+#                subsubchildren.append( {'name': concepto,
+#                                        'size': float(lista[status][linea][clave][concepto])} )
+#            subchildren.append( {'name': clave,
+#                                 'children': subsubchildren } )
+#        children.append( {'name': linea,
+#                          'children': subchildren} )
+#    stati.append( {'name': status,
+#                 'children': children} )
+#    
+#proyectos = {'name': 'proyectos',
+#             'children': stati }
+#
+#print proyectos
+#
+
+=======
+>>>>>>> 4a93eeb913d6311b14b523bf03cf8916a0bc7c90
