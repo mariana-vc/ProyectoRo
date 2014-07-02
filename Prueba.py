@@ -1,3 +1,6 @@
+No se como funciona esto.
+
+
 def dict_depth(d, depth=0):
     if not isinstance(d, dict) or not d:
         return depth
@@ -20,6 +23,8 @@ print dict_de
 pth(dic)
 
 print "hola mundo"
+
+
 
 
 stati = []
